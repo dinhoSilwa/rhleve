@@ -1,0 +1,259 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+   }
+   
+//    variáveis de cores
+   $electric-violet-50: #faf5ff;
+   $electric-violet-100: #f3e9fe;
+   $electric-violet-200: #e9d6fe;
+   $electric-violet-300: #d8b6fc;
+   $electric-violet-400: #bf88f8;
+   $electric-violet-500: #a75af2;
+   $electric-violet-600: #8a2be2;
+   $electric-violet-700: #7d28c8;
+   $electric-violet-800: #6a25a4;
+   $electric-violet-900: #572083;
+   $electric-violet-950: #3b0a61;
+   
+
+//    variáveis de tamanho
+
+    $smarthPhone-min:320px;
+    $smarthPhone-max:480px;
+// -------------------------------------=
+    $tablet-min:481px;
+    $tablet-max:767px;
+// -------------------------------------=
+    $desktoSmall-min:1025px;
+    $desktoSmall-max:1199px;
+// -------------------------------------= 
+
+    $desktopLarge-min:1200px;
+
+
+   
+   // components lists
+   
+   
+   //start--buttons
+
+   @mixin liitem(){
+    width: 6.5rem; height: 2.1rem;
+   
+     font-size: 0.8rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@mixin liitemHover(){
+    width: 6.3rem; height: 1.9rem;
+     border: 0.2rem solid $electric-violet-800;
+     font-size: 0.8rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   
+   @mixin activeButton(){
+       width: 6.5rem; height: 2.1rem;
+       background-color: $electric-violet-800;
+        color: #f1e8ff;
+        border: 1px solid $electric-violet-800;
+        font-size: 0.8rem;
+       border-radius: 0.5rem;
+   }
+   @mixin preActiveButton(){
+       width: 6.5rem; height: 2.1rem;
+       border: 1px solid $electric-violet-700;
+       font-size: 0.8rem;
+       
+       border-radius: 0.5rem;
+   }
+
+
+
+   
+   // -- end buttons
+   
+   //
+   
+   @media only screen and (min-width: 312px) and (max-width: 480px) {
+    /* Estilos a serem aplicados para telas com largura entre 320px e 480px */
+    
+    #hero__mainMenu {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 40px;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        display: flex;
+        flex-direction: row;
+        background-color: $electric-violet-100;
+       
+       
+        .hero__mainMenu--logo 
+        {
+         width: 30%;
+         display: flex;
+         font-size: 1.6rem;
+         align-items: center;
+         
+         justify-content: space-around;
+       
+         .hero__mainMenu-h2
+         {
+           margin-right: 1.6rem;
+           font-size: 2rem;
+           color: $electric-violet-700;
+         }
+       
+         .hero__mainMenu-menuIcon svg
+         {
+           color: $electric-violet-600;
+       
+         }
+       
+        }
+       
+       
+       
+        .mainMenu__allMenuList {
+       
+         width: 70%;
+         height: 4rem;
+         display: flex;
+         font-size: 2rem;
+       
+       
+         flex-direction: column;
+         align-items: flex-end;
+       
+         // first ul style 
+         .allMenuList__primaryList {
+          display: none;
+         }
+       
+       
+         // second ul style
+         .allMenuList__secundaryList {
+          width: 70%;
+          height: 100%;
+          display: flex;
+          justify-content: flex-end;
+       
+          align-items: center;
+          padding-inline: 1.6rem;
+       
+       
+       
+          .mainMenu__list--li {
+       
+           width: 6.5rem;
+           height: 2.1rem;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           
+       
+           &:first-child {
+           @include preActiveButton;
+           margin-inline: 0.8rem;
+           }
+       
+           &:last-child {
+            @include activeButton;
+            margin-inline: 0.8rem;
+           }
+       
+          }
+       
+         }
+        }
+       
+    
+       }
+       
+       .presentationSection{
+           margin-top: 15rem;
+          
+       
+           .presentationSection-img
+           {
+               width: 75%;
+               margin: auto;
+               display: flex;
+               justify-content: center;
+               margin-bottom: 3.2rem;
+       
+               & img
+               {
+                   width: 60%;
+                   
+       
+               }
+           }
+       
+           .presentationSection-text
+           {
+               width: 75%; height: 150px;
+               margin: auto;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-evenly;
+               
+       
+           & h2
+           {
+               font-size: 1.6rem;
+               
+           }
+       
+           & p{
+               font-size: 1.0rem;
+           }
+       
+           .presentationSection__text-buttonGroup{
+               
+       
+       
+           & button:first-child
+           {
+               @include preActiveButton;
+               margin-inline: 0.2rem;
+           }
+       
+           & button:last-child
+           {
+               @include activeButton;
+               margin-inline: 0.2rem;
+           }
+           
+       
+       
+           }
+               
+       
+           }
+       
+       }
+    
+
+
+  }
+  
+
+
+
