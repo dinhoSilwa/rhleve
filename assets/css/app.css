@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
   list-style: none;
   border-style: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 html {
@@ -14,6 +15,9 @@ html {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   * {
     font-size: 62.5%;
+  }
+  body {
+    border: 1px solid rgba(0, 0, 0, 0.2);
   }
   #hero__mainMenu {
     width: 100vw;
@@ -29,7 +33,7 @@ html {
     margin-left: 10px;
   }
   #hero__mainMenu .hero__mainMenu--logo h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #6a25a4;
   }
   #hero__mainMenu .mainMenu__allMenuList {
@@ -298,6 +302,101 @@ html {
   #sectionadvantages .sectionadvantages-item-secondary .sectionadvantages-img-secondary img {
     width: 100%;
     padding-top: 30px;
+  }
+  #sessionApproach {
+    width: 80vw;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  #sessionApproach p {
+    width: 70%;
+    height: 60px;
+    padding-inline: 3.2rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #sessionApproach ul {
+    width: 70%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #sessionApproach ul li {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  #sessionApproach ul li svg {
+    margin-right: 10px;
+    color: #7d28c8;
+  }
+  #sectionOffPrimary {
+    height: 300px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+  }
+  #sectionOffPrimary .sectionOffPrimary-img {
+    width: 40%;
+  }
+  #sectionOffPrimary .sectionOffPrimary-img img {
+    width: 100%;
+    position: relative;
+    top: 60px;
+  }
+  #sectionOffPrimary .sectionOffPrimary-text {
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  #sectionOffPrimary .sectionOffPrimary-text p {
+    font-size: 1.2rem;
+    width: 90%;
+    margin: auto;
+    font-weight: bolder;
+  }
+  #sectionOffPrimary .sectionOffPrimary-text .buttonGroup {
+    display: flex;
+    justify-content: center;
+  }
+  #sectionOffPrimary .sectionOffPrimary-text .buttonGroup button:first-child {
+    width: 22vw;
+    height: 30px;
+    border: 1px solid #7d28c8;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 4px;
+    font-weight: bold;
+  }
+  #sectionOffPrimary .sectionOffPrimary-text .buttonGroup button:last-child {
+    width: 22vw;
+    height: 30px;
+    background-color: #6a25a4;
+    border: 1px solid #6a25a4;
+    font-weight: bold;
+    color: #faf5ff;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 4px;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
