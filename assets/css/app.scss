@@ -531,12 +531,14 @@ $desktopLarge-min: 1200px;
     #sessionApproach{
        
         width: 80vw;
-        height: 190px;
+        height: 250px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin: auto;
+        border: 2px solid red;
+        margin-top: 100px;
         
 
 
@@ -544,12 +546,13 @@ $desktopLarge-min: 1200px;
         {
             width: 70%; height: 60px;
             padding-inline: 3.2rem;
-            font-size: 1.2rem;
+            font-size: 1.8rem;
             font-weight: bolder;
             
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+           
 
             
             
@@ -587,7 +590,7 @@ $desktopLarge-min: 1200px;
 {
    
     height: 300px;
-    width: 90vw;
+    width: 80vw;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -623,7 +626,7 @@ $desktopLarge-min: 1200px;
             width: 90%;
            
             margin: auto;
-            font-weight: bolder;
+            font-weight: 300s;
         }
 
 
@@ -635,12 +638,12 @@ $desktopLarge-min: 1200px;
 
             button:first-child
             {
-                @include preActiveButton($tamanhoFonte:1.2rem)
+                @include preActiveButton($tamanhoFonte:1rem)
             }
 
             button:last-child
             {
-                @include activeButton($tamanhoFonte:1.2rem)
+                @include activeButton($tamanhoFonte:1rem)
             }
         }
     }

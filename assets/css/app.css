@@ -305,18 +305,20 @@ html {
   }
   #sessionApproach {
     width: 80vw;
-    height: 190px;
+    height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
+    border: 2px solid red;
+    margin-top: 100px;
   }
   #sessionApproach p {
     width: 70%;
     height: 60px;
     padding-inline: 3.2rem;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
@@ -341,7 +343,7 @@ html {
   }
   #sectionOffPrimary {
     height: 300px;
-    width: 90vw;
+    width: 80vw;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -366,7 +368,7 @@ html {
     font-size: 1.2rem;
     width: 90%;
     margin: auto;
-    font-weight: bolder;
+    font-weight: 300s;
   }
   #sectionOffPrimary .sectionOffPrimary-text .buttonGroup {
     display: flex;
@@ -376,7 +378,7 @@ html {
     width: 22vw;
     height: 30px;
     border: 1px solid #7d28c8;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
@@ -396,7 +398,7 @@ html {
     align-items: center;
     justify-content: center;
     margin-inline: 4px;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
