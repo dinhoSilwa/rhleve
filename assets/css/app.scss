@@ -530,11 +530,11 @@ $desktopLarge-min: 1200px;
 
     #sessionApproach{
        
-        width: 80vw;
-        height: 250px;
+        width: 90vw;
+        height: 300px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin: auto;
        
@@ -546,7 +546,7 @@ $desktopLarge-min: 1200px;
         {
             width: 80%; height: 60px;
             padding-inline: 3.2rem;
-            font-size: 2rem;
+            font-size: 3rem;
             font-weight: bolder;
             
             display: flex;
@@ -559,8 +559,8 @@ $desktopLarge-min: 1200px;
         }
 
         ul
-        {   width: 80%;
-            height: 120px;
+        {   width: 90%;
+            height: 180px;
             
             display: flex;
             flex-direction: column;
@@ -569,16 +569,18 @@ $desktopLarge-min: 1200px;
             li 
             {   
 
-                font-size: 1.2rem;
+                font-size: 1.8rem;
                 display: flex;
                 align-items: center;
                 font-weight: bold;
+                border: 2px solid red;
 
                 svg
                 {
                     
                     margin-right: 8px;
                     color: $electric-violet-700;
+                    
                 }
                 
             }
@@ -616,13 +618,13 @@ $desktopLarge-min: 1200px;
     .sectionOffPrimary-text
     {
         
-        width: 40%; height: 100px;
+        width: 60%; height: 100px;
         display: flex;
         flex-direction: column;
        
 
         p{
-            font-size: 1.2rem;
+            font-size: 2rem;
             width: 100%;
            
             margin: auto;
