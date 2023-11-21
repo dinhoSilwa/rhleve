@@ -158,8 +158,10 @@ $desktopLarge-min: 1200px;
 
     body
         {
-            // background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='480' height='795' preserveAspectRatio='none' viewBox='0 0 480 795'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3cpath d='M59.1 260.37 a83.61 83.61 0 1 0 167.22 0 a83.61 83.61 0 1 0 -167.22 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-60.3 483.67 a131.17 131.17 0 1 0 262.34 0 a131.17 131.17 0 1 0 -262.34 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M146.39 553.55 a104.81 104.81 0 1 0 209.62 0 a104.81 104.81 0 1 0 -209.62 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-73.72 503.74 a121.28 121.28 0 1 0 242.56 0 a121.28 121.28 0 1 0 -242.56 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M301.88 15.38 a125.78 125.78 0 1 0 251.56 0 a125.78 125.78 0 1 0 -251.56 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M304.1 453.8 a85.88 85.88 0 1 0 171.76 0 a85.88 85.88 0 1 0 -171.76 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M47.1 567.72 a85.35 85.35 0 1 0 170.7 0 a85.35 85.35 0 1 0 -170.7 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M187.31 66.44 a134.91 134.91 0 1 0 269.82 0 a134.91 134.91 0 1 0 -269.82 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M131.06 147.58 a116.85 116.85 0 1 0 233.7 0 a116.85 116.85 0 1 0 -233.7 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-90.92 218.98 a104.26 104.26 0 1 0 208.52 0 a104.26 104.26 0 1 0 -208.52 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M37.9 447.05 a121.67 121.67 0 1 0 243.34 0 a121.67 121.67 0 1 0 -243.34 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='480' height='795' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='480' height='795' preserveAspectRatio='none' viewBox='0 0 480 795'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3cpath d='M59.1 260.37 a83.61 83.61 0 1 0 167.22 0 a83.61 83.61 0 1 0 -167.22 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-60.3 483.67 a131.17 131.17 0 1 0 262.34 0 a131.17 131.17 0 1 0 -262.34 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M146.39 553.55 a104.81 104.81 0 1 0 209.62 0 a104.81 104.81 0 1 0 -209.62 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-73.72 503.74 a121.28 121.28 0 1 0 242.56 0 a121.28 121.28 0 1 0 -242.56 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M301.88 15.38 a125.78 125.78 0 1 0 251.56 0 a125.78 125.78 0 1 0 -251.56 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M304.1 453.8 a85.88 85.88 0 1 0 171.76 0 a85.88 85.88 0 1 0 -171.76 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M47.1 567.72 a85.35 85.35 0 1 0 170.7 0 a85.35 85.35 0 1 0 -170.7 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M187.31 66.44 a134.91 134.91 0 1 0 269.82 0 a134.91 134.91 0 1 0 -269.82 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M131.06 147.58 a116.85 116.85 0 1 0 233.7 0 a116.85 116.85 0 1 0 -233.7 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-90.92 218.98 a104.26 104.26 0 1 0 208.52 0 a104.26 104.26 0 1 0 -208.52 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M37.9 447.05 a121.67 121.67 0 1 0 243.34 0 a121.67 121.67 0 1 0 -243.34 0z' fill='rgba(91%2c 37%2c 209%2c 0.03)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='480' height='795' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
        border: 1px solid rgba(0,0,0,.2);
+       background-size: 100%;
+       background-size: cover;
         }
     #hero__mainMenu {
         width: 100vw;
@@ -604,11 +606,12 @@ $desktopLarge-min: 1200px;
 
     .sectionOffPrimary-img
     {
-        width: 40%;
+        width: 90%;
+        
         
 
         img{
-            width: 100%;
+            width: 90%;
             position: relative;
             top:60px;
             
@@ -619,17 +622,18 @@ $desktopLarge-min: 1200px;
     .sectionOffPrimary-text
     {
         
-        width: 60%; height: 100px;
+        width: 40%; height: 100px;
         display: flex;
         flex-direction: column;
        
 
         p{
             font-size: 2rem;
-            width: 100%;
+            width: 90%;
            
             margin: auto;
             font-weight: 500;
+            margin-bottom: 3.2rem;
         }
 
 
