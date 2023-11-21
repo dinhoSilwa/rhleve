@@ -311,34 +311,33 @@ html {
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    border: 2px solid red;
     margin-top: 100px;
   }
   #sessionApproach p {
-    width: 70%;
+    width: 80%;
     height: 60px;
     padding-inline: 3.2rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
   #sessionApproach ul {
-    width: 70%;
+    width: 80%;
     height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
   #sessionApproach ul li {
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     font-weight: bold;
   }
   #sessionApproach ul li svg {
-    margin-right: 10px;
+    margin-right: 8px;
     color: #7d28c8;
   }
   #sectionOffPrimary {
@@ -366,9 +365,9 @@ html {
   }
   #sectionOffPrimary .sectionOffPrimary-text p {
     font-size: 1.2rem;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    font-weight: 300s;
+    font-weight: 500;
   }
   #sectionOffPrimary .sectionOffPrimary-text .buttonGroup {
     display: flex;
